@@ -1,0 +1,17 @@
+netdestination onboard-googleplay
+    name android.clients.google.com
+    name *.googleapis.com
+    name *.gvt1.com
+    name *.ggpht.com
+    name *.googleusercontent.com
+    name *.gstatic.com
+    name clients.l.google.com
+    name accounts.google.com
+    name accounts.youtube.com
+    name connectivitycheck.android.com
+    name connectivitycheck.gstatic.com
+    name www.google.com
+!
+aaa authentication captive-portal <captive-portal-profile-name>
+    white-list onboard-googleplay
+!
