@@ -1,0 +1,17 @@
+netdestination Microsoft_intune
+    name login.microsoftonline.com
+    name *.aadcdn.microsoftonline-p.com
+    name *.cloudapp.azure.com
+    name *.digicert.com
+	name *.manage.microsoft.com
+	name manage.microsoft.com
+	name login.windows.net
+	name *.aadg.akadns.net
+	name *.aadg.trafficmanager.net
+	name *.omegacdn.net
+	name enterpriseregistration.windows.net
+	name *.smartscreen.microsoft.com
+	name *.msauth.net
+	name *.msftauth.net
+	name *.wns.windows.com
+	name *.notify.windows.com
